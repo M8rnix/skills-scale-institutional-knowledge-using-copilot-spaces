@@ -28,10 +28,22 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
+  - Product Manager (define vision and success)
+  - Project Manager (coordinate delivery)
+  - Business Analyst (gather and document requirements)
+  - UX/UI Designer (design user experience)
+  - Developers (implement features)
+  - QA Lead (oversee quality strategy)
+  - QA/Testers (execute testing)
+  - DevOps Engineer (CI/CD and infrastructure)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Business Analyst consulted on requirement complexity
+- [ ] UX/UI Designer consulted for design scope estimation
+- [ ] DevOps Engineer consulted on infrastructure/deployment needs
+- [ ] QA Lead consulted on testability and quality approach
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)

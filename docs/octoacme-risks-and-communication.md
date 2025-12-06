@@ -23,6 +23,12 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Role-specific communication responsibilities:
+  - **Project Manager**: Overall status, risks, timeline updates
+  - **Product Manager**: Feature updates, business value, roadmap changes
+  - **QA Lead**: Quality metrics, test results, release readiness
+  - **DevOps Engineer**: Infrastructure status, deployment schedules, incidents
+  - **Business Analyst**: Requirement changes, stakeholder feedback
 
 ## Communication Templates
 Weekly Status Template:
@@ -38,5 +44,9 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- Team-level → Project Manager → Product Lead → Sponsor
+- Technical issues: Developer → Tech Lead → DevOps Engineer (if infrastructure-related)
+- Quality concerns: QA/Tester → QA Lead → Project Manager
+- Design questions: Developer → UX/UI Designer → Product Manager
+- Requirement clarifications: Developer → Business Analyst → Product Manager
+- For security incidents, follow the security incident runbook and notify Security on-call immediately
